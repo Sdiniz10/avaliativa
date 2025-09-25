@@ -1,0 +1,24 @@
+
+input {border: 0px;
+    border-bottom: solid 1px }
+    input:focus { border: solid 1px limegreen;
+      outline: none
+    }
+    body {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+    #form {
+      margin-top: 100%;
+    }
+    input:hover { border: solid  red}
+    form{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        border: solid;
+        grid-template-rows: 8 45px;
+    }
+

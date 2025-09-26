@@ -148,4 +148,11 @@ function mascara_cep()
                     document.getElementById("codigo").value=cpf_formatado.slice(0,14)+"-"+cpf_formatado[14];
                 }
             }
+            if (cpf_formatado[15]!="9")
+                {
+                    if (cpf_formatado[15]!=undefined)
+                    {
+                        document.getElementById("codigo").value=cpf_formatado.slice(0,15)+"9"+cpf_formatado[15];
+                    }
+                }
         }
